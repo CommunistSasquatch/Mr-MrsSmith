@@ -1,0 +1,101 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, img, ins, kbd, q, s, samp, small, strike, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*
+small 320
+medium 600
+large 1000
+*/
+body #Mr {
+  position: absolute;
+  width: 50%;
+  float: right; }
+  @media all and (min-width: 600px) and (min-device-width: 600px) {
+    body #Mr {
+      width: 60%; } }
+  body #Mr img {
+    left: 175%;
+    position: absolute;
+    float: right;
+    width: 50%; }
+    @media all and (min-width: 600px) and (min-device-width: 600px) {
+      body #Mr img {
+        width: 60%;
+        left: 130%; } }
+    @media only screen and (min-width: 1000px) and (min-device-width: 1000px) {
+      body #Mr img {
+        left: 110%; } }
+body #Mrs {
+  position: absolute;
+  width: 50%;
+  float: left; }
+  @media all and (min-width: 600px) and (min-device-width: 600px) {
+    body #Mrs {
+      width: 60%; } }
+  @media all and (min-width: 1600px) and (min-device-width: 1600px) {
+    body #Mrs {
+      width: 60%; } }
+  body #Mrs img {
+    float: left;
+    width: 50%; }
+    @media all and (min-width: 600px) and (min-device-width: 600px) {
+      body #Mrs img {
+        width: 60%;
+        left: 130%; } }
+body #header {
+  position: relative;
+  width: 100%; }
+  body #header #title {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    font-family: "Times New Roman";
+    font-size: 7vh; }
+  body #header #date {
+    margin-left: 15%;
+    margin-right: 15%; }
+    @media all and (min-width: 600px) and (min-device-width: 600px) {
+      body #header #date {
+        font-size: 3vh; } }
+  body #header #author {
+    margin-left: 15%;
+    margin-right: 15%; }
+    @media all and (min-width: 600px) and (min-device-width: 600px) {
+      body #header #author {
+        font-size: 3vh; } }
+body #text {
+  position: relative;
+  margin-right: 15%;
+  margin-left: 25%; }
+  @media only screen and (min-width: 600px) and (min-device-width: 600px) {
+    body #text {
+      font-size: 3vh; } }
+  @media only screen and (min-width: 1000px) and (min-device-width: 1000px) {
+    body #text {
+      margin-right: 30%; } }
+
+/*# sourceMappingURL=styles.css.map */
